@@ -1,0 +1,7 @@
+{% if not is_author %}
+<button>
+    <a class="nav-link" href="{% url 'account_upgrade' %}">
+        <h4><strong>Join the authors!</strong></h4>
+    </a>
+</button>
+{% endif %}
